@@ -1,0 +1,9 @@
+
+<div>
+  <a [routerLink]="['/`']" class="text-start underline text-blue-800 cursor-pointer">Back</a>
+</div>
+<div class="post-detail pt-6" *ngIf="post">
+    <h1 class="text-black font-bold pb-4">{{ post.title }}</h1>
+    <p class="text-gray-900">{{ post.body }}</p>
+ </div>
+  
