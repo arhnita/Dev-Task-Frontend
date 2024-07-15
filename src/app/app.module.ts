@@ -8,6 +8,7 @@ import { BlogPostDetailsComponent } from './pages/blog-post-details/blog-post-de
 import { IntroHeaderComponent } from './components/intro-header/intro-header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatPaginatorModule } from '@angular/material/paginator';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { MatPaginatorModule } from '@angular/material/paginator';
     HttpClientModule,
     BrowserAnimationsModule,
     MatPaginatorModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

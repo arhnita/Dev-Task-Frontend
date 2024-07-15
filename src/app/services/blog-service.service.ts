@@ -9,7 +9,7 @@ export class BlogServiceService {
 
 
  
-  private apiUrl = ' https://jsonplaceholder.typicode.com/posts'; // Replace with your API URL
+  private apiUrl = ' https://jsonplaceholder.typicode.com/posts';
 
   constructor(private http: HttpClient) { }
 
